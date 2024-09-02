@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login - Élite Studio</title>
+    <style>
+        /* Estilos generales */
+        body {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background-color: #1d2d50; /* Azul oscuro de la página */
+        }
+
+        /* Estilos del contenedor de login */
+        .login-container {
+            background-color: #ffffff; /* Fondo blanco */
+            padding: 50px 40px;
+            border-radius: 15px;
+            box-shadow: 0 15px 30px rgba(0, 0, 0, 0.2);
+            width: 100%;
+            max-width: 400px;
+            text-align: center;
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+        }
+
+        .login-container:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 25px 50px rgba(0, 0, 0, 0.3);
+        }
+
+        .login-container img {
+            width: 120px;
+            height: auto;
+            margin-bottom: 20px;
+        }
+
+        .header-text {
+            color: #b1c354; /* Verde claro de los títulos */
+            font-size: 28px;
+            font-weight: bold;
+            margin-bottom: 30px;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+        }
+
+        .btn-login {
+            background-color: #b1c354; /* Verde claro */
+            color: #ffffff;
+            padding: 15px;
+            border: none;
+            border-radius: 25px;
+            cursor: pointer;
+            font-size: 18px;
+            font-weight: bold;
+            text-transform: uppercase;
+            transition: background-color 0.3s, transform 0.3s, box-shadow 0.3s;
+            width: 100%;
+            max-width: 280px;
+            margin-bottom: 20px;
+            box-shadow: 0 5px 15px rgba(177, 195, 84, 0.3);
+        }
+
+        .btn-login:hover {
+            background-color: #9fb847; /* Verde ligeramente más oscuro */
+            transform: translateY(-3px);
+            box-shadow: 0 10px 20px rgba(177, 195, 84, 0.5);
+        }
+
+        .footer-text {
+            color: #1d2d50; /* Azul oscuro para el texto */
+            font-size: 16px;
+            font-style: italic;
+            opacity: 0.8;
+        }
+    </style>
+</head>
+<body>
+    <div class="login-container">
+        <img src="IMAGENES/ELITE.jpeg" alt="Logo Elite Studio">
+        <div class="header-text">Bienvenido a Élite Studio</div>
+        <button class="btn-login" onclick="window.location.href='indexx.html'">Ingresar</button>
+        <div class="footer-text">
+            Optimice su tiempo de estudio con nosotros.
+        </div>
+    </div>
+</body>
+</html>
+
